@@ -13,6 +13,12 @@ export interface GameHistory {
   cashedOut: boolean;
 }
 
+export interface CrashRecord {
+  id: string;
+  multiplier: number;
+  timestamp: number;
+}
+
 export interface PlayerState {
   balance: number;
   lastBet: number;
